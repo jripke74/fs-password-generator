@@ -38,14 +38,3 @@ function generatePassword2(length) {
 }
 const password = generatePassword(4);
 console.log(`Generated password: ${password}`);
-
-// 3. You should define a variable called password and assign it the result of
-// calling the generatePassword function with a numeric argument that represents
-// the desired password length.
-
-const password = generatePassword(15);
-
-// 4. You should have a console.log that logs the message "Generated password:"
-// followed by the password variable.
-
-console.log(`Generated password: ${password}`);
